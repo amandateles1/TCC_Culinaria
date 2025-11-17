@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <header>
+        <h1>Massas e pratos Salgados</h1>
+        <p>Curso de Massas, os que são alimentos feitos a partir de uma mistura de farinha e água, podendo incluir ovos, sal e outros ingredientes.</p>
+    </header>
+
+    <a href="index2.html" class="btn-voltar">
+        <span class="setinha">⬅</span>
+        Voltar
+    </a>
+
+    <section>
+        <h2>O que vamos aprender?</h2>
+        <ul>
+            <li>75 receitas de massas para experimentar o sabor da Itália</li>
+            <li>Temperos e preparos</li>
+            <li>Dicas e receitas tradicionais</li>
+            <li>Livros e E-books</li>
+        </ul>
+
+        <button onclick="mostrarDetalhes()">Saiba mais do curso</button>
+        <div class="detalhes" id="detalhes">
+        <p>O Curso é 100% gratuito, e com aulas totalmente a ditância, você irá aprender inúmeras receitas tradicionais e novas. 
+        combina aulas teóricas sobre história da alimentação, nutrição e gestão, com aulas práticas em cozinhas-escola para aprender 
+        técnicas de corte, preparo e montagem de pratos.</p>
+    </div>
+    </section>
+
+    <script>
+        function mostrarDetalhes() {
+            const detalhes = document.getElementById("detalhes");
+            if(detalhes.style.display === "block") {
+                detalhes.style.display = "none";
+            } else {
+            detalhes.style.display = "block";
+         }
+        }
+    </script>
+
+</body>
+</html>
