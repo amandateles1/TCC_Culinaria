@@ -5,11 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cabeçalho com Menu e Ícones</title>
 
-    <!-- Importa os ícones do Font Awesome -->
-    <!-- Essa biblioteca possui vários ícones prontos que podem ser usados com <i class="..."> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-    <!-- Arquivo CSS externo onde você vai estilizar o cabeçalho -->
+    <link rel="stylesheet" href="style1.css">
     <link rel="stylesheet" href="style2.css">
 </head>
 <body>
@@ -21,62 +19,55 @@
 <div class="container-esquerda">
 
 <!-- Logo do site -->
-<img src="luz.png" alt="Logo" class="logo">
+<img src="talher.png" alt="Logo" class="logo">
 
 <!-- Menu principal -->
 <ul class="lista-menu">
 
 <!-- ITEM 1: Programação -->
 <li>
-<!-- Ícone de código (fas = sólido, fa-code = ícone de código) -->
- <a href="#"><i class="fas fa-code"></i> Programação</a>
- 
- <!-- Submenu com linguagens -->
-  <ul>
- <!-- Ícone do Python (fab = marcas, fa-python = logo Python) -->
-  <li><a href="#"><i class="fab fa-python"></i> Python</a></li>
- <!-- Ícone do Java -->
-  <li><a href="#"><i class="fab fa-java"></i> Java</a></li>
-<!-- Ícone do JavaScript -->
- <li><a href="#"><i class="fab fa-js-square"></i> JavaScript</a></li>
+    <!-- Ícone laptop/código -->
+     <a href="#"><i class="fa-regular fa-file"></i>Menu</a>
+    <ul>
+  <li><a href="receitas.html"><i class="fa-solid fa-shrimp"></i>Receitas</a></li>
+  <li><a href="saudaveis.html"><i class="fa-solid fa-apple-whole"></i>Saudáveis</a></li>
+ <li><a href="bebidas.html"><i class="fa-solid fa-champagne-glasses"></i>Bebidas</a></li>
 </ul>
 </li>
 
-<!-- ITEM 2: Front-end -->
 <li>
-    <!-- Ícone laptop/código -->
-     <a href="#"><i class="fas fa-laptop-code"></i> Front-end</a>
+     <a href="#"><i class="fa-solid fa-candy-cane"></i>Doces</a>
     <ul>
-        <li><a href="#"><i class="fab fa-html5"></i> HTML</a></li>
-        <li><a href="#"><i class="fab fa-css3-alt"></i> CSS</a></li>
-        <li><a href="#"><i class="fab fa-react"></i> React</a></li>
+        <li><a href="passos.html"><i class="fa-solid fa-heart"></i>Passos</a></li>
+        <li><a href="bolos.html"><i class="fa-solid fa-cake-candles"></i> Bolos</a></li>
+        <li><a href="tortas.html"><i class="fa-solid fa-cookie"></i>Tortas</a></li>
                 </ul>
             </li>
 
-<!-- ITEM 3: Infraestrutura -->
  <li>
-    <a href="#"><i class="fas fa-server"></i> Infraestrutura</a>
-                <ul>
-    <li><a href="#"><i class="fas fa-network-wired"></i> Redes</a></li>
-    <li><a href="#"><i class="fas fa-cloud"></i> Cloud</a></li>
+    <a href="#"><i class="fa-solid fa-burger"></i></i>Salgados</a>
+    <ul>
+    <li><a href="restaurantes.html"><i class="fa-solid fa-comment"></i>Restaurantes</a></li>
+    <li><a href="classicos.html"><i class="fa-solid fa-leaf"></i>Clássicos</a></li>
+    <li><a href="temperos.html"><i class="fa-solid fa-leaf"></i>Temperos</a></li>
                 </ul>
             </li>
 
-            <!-- ITEM 4: Business -->
             <li>
-                 <a href="#"><i class="fas fa-briefcase"></i> Business</a>
+                 <a href="#"><i class="fa-solid fa-carrot"></i>Saudáveis</a>
                 <ul>
-                    <li><a href="#"><i class="fas fa-chart-line"></i> Marketing</a></li>
-                    <li><a href="#"><i class="fas fa-handshake"></i> Vendas</a></li>
+                    <li><a href="livros.html"><i class="fa-regular fa-file"></i>Livros</a></li>
+                    <li><a href="instituicao.html"><i class="fi fi-sr-home"></i>Intituição</a></li>
+                    <li><a href="recomendacoes.html"><i class="fi fi-sr-apps"></i>Recomendações</a></li>
                 </ul>
             </li>
 
-            <!-- ITEM 5: Design & UX -->
             <li>
-                <a href="#"><i class="fas fa-pencil-ruler"></i> Design & UX</a>
+                <a href="#"><i class="fi fi-brands-apple"></i></i>Comidas Típicas</a>
                 <ul>
-                    <li><a href="#"><i class="fas fa-paint-brush"></i> UI Design</a></li>
-                    <li><a href="#"><i class="fas fa-drafting-compass"></i> Prototipagem</a></li>
+                    <li><a href="nordeste.html"><i class="fi fi-sr-cactus"></i>Nordeste</a></li>
+                    <li><a href="sul.html"><i class="fi fi-sr-tree-alt"></i>Sul</a></li> 
+                    <li><a href="centro.html"><i class="fi fi-ss-warehouse-alt"></i>Centro-Oeste</a></li>
                 </ul>
             </li>
         </ul>
@@ -87,11 +78,68 @@
         <!-- Ícone de coração -->
         <a href="#"><i class="fas fa-heart"></i></a>
         <!-- Ícone de home -->
-        <a href="#"><i class="fas fa-home"></i></a>
+        <a href="file:///C:/Users/aluno/Desktop/estilo-AMANDA-certo/index2.html#"><i class="fas fa-home"></i></a>
         <!-- Ícone de usuário -->
-        <a href="#"><i class="fas fa-user"></i></a>
+        <a href="file:///C:/Users/aluno/Desktop/estilo-AMANDA-certo/contato.html"><i class="fas fa-user"></i></a>
     </div>
 </header>
+
+<main class="conteudo">
+    <section class="introducao">
+        <h1>Bem-vindo ao Mundo da Culinária</h1>
+        <p>A culinária é uma arte que combina habilidades técnicas, 
+        criatividade e conhecimento para criar pratos incríveis e satisfatórios.</p>
+        <img src="culinaria.jpg" alt="Imagem Culinária">
+    </section>
+</main>
+
+<section class="beneficios">
+    <h2>Por que Aprender a Cozinhar?</h2>
+    <ul>
+        <li><i class="fa-solid fa-check"></i>Aprender receitas novas</li>
+        <li><i class="fa-solid fa-check"></i>Ter mais confiança na cozinha</li>
+        <li><i class="fa-solid fa-check"></i>Culinária de diferentes paízes</li>
+    </ul>
+</section>
+
+<section class="recursos">
+    <h1>Recursos recomendados</h1>
+    <div class="cards">
+        <div class="card">
+        <img src="massas.jpj.jpg" alt="Massas">
+        <h3>Massas e pratos Salgados</h3>
+        <p>Massas são alimentos feitos a partir de uma mistura de farinha
+        com água, podendo incluir ovos, sal e outros ingredientes.</p>
+        <a href="file:///C:/Users/aluno/Desktop/estilo-AMANDA-certo/index3.html">Saiba Mais</a>
+    </div>
+    <div class="card">
+        <img src="doces.jpg" alt="Doces">
+        <h3>Receitas de Doces</h3>
+        <p>Os doces mais famosos do mundo incluem o brigadeiro, o pastel de nata,
+         o tiramisu e o creme brûlée.</p>
+         <a href="file:///C:/Users/aluno/Desktop/estilo-AMANDA-certo/doces.html">Saiba Mais</a>
+    </div>
+    <div class="card">
+        <img src="bebidas.jpg" alt="Bebidas">
+        <h3>Drinks e Bebidas </h3>
+        <p>Existem dois tipos principais de bebidas: alcoólicas e não alcoólicas. 
+        As bebidas alcoólicas incluem destilados.</p>
+        <a href="file:///C:/Users/aluno/Desktop/estilo-AMANDA-certo/bebidas.html">Saiba Mais</a>
+    </div>
+</section>
+</main>
+<footer class="rodape">
+    <div class="container-rodape">
+        <p>&copy; 2025 - Todos os direitos reservados.</p>
+        <ul class="links-rodape">
+            <li><a href="#">Política de Privacidade</a></li>
+            <li><a href="#">Termos de Uso</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </div>
+</footer>
+</body>
+</html>
 
 </body>
 </html>
